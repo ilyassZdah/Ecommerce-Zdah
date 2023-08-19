@@ -24,7 +24,7 @@
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: hsl(0, 100%, 100%);
   --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 0%, 13%);
+  --white: hsl(0, 0%, 0%);
   --onyx: hsl(0, 100%, 100%);
 
   /**
@@ -933,7 +933,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-btn {
-  background: var(--salmon-pink);
+  background: var(--eerie-black);
   color: var(--white);
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -950,7 +950,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .banner-btn:hover {
-  background: var(--eerie-black);
+  background: var(--salmon-pink);
 }
 
 /*-----------------------------------*\
@@ -3409,4 +3409,8 @@ footer {
 .search-field::placeholder {
   color: white;
   opacity: 0.7;
+}
+
+body {
+  background-image: url("../images/bg-img.jpg") !important;
 }
